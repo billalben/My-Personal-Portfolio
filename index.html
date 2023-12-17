@@ -19,11 +19,38 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <!-- Custom Css Link -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Billal Benz - Portfolio</title>
   </head>
   <body>
-    
+    <!-- ========= Top Bar ========= -->
+    <header class="topbar">
+      <a href="#" class="logo">
+        <img
+          src="./imgs/Logo_dark.png"
+          alt="DevFolio"
+          width="145"
+          height="32"
+          class="dark"
+        />
+        <img
+          src="./imgs/Logo_light.png"
+          alt="DevFolio"
+          width="145"
+          height="32"
+          class="light"
+        />
+      </a>
+      <button class="icon-btn theme-btn" data-theme-btn>
+        <span class="material-symbols-outlined dark" aria-hidden="true">
+          dark_mode
+        </span>
+        <span class="material-symbols-outlined light" aria-hidden="true">
+          light_mode
+        </span>
+        <div class="state-layer"></div>
+      </button>
+    </header>
     <script src="./js/script.js"></script>
   </body>
 </html>
