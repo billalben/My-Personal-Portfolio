@@ -293,6 +293,22 @@ body {
 :has(> .state-layer):is(:focus, :focus-visible, :active) .state-layer {
   opacity: 0.12;
 }
+.section {
+  padding-block: var(--section-padding);
+}
+.container {
+  padding-inline: 16px;
+}
+.img-holder {
+  aspect-ratio: var(-width) / var(--height);
+  background-color: transparent;
+  overflow: hidden;
+}
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* ========== COMPONENT ========== */
 /* +++ BUTTON +++ */
@@ -305,6 +321,24 @@ body {
 
 /* +++ TAB +++ */
 /* +++ CHIP +++ */
+.chip {
+  height: 32px;
+  max-width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-inline: 16px;
+  border: 1px solid var(--outline);
+  border-radius: var(--shape-corner-small);
+  background-color: var(--surface);
+  color: var(--on-surface-variant);
+  --state-layer-bg: var(--on-surface-variant);
+}
+.chip .material-symbols-outlined {
+  font-size: 1.8rem;
+}
+
 /* +++ CARD +++ */
 /* +++ INPUT FIELD +++ */
 
@@ -339,4 +373,32 @@ body {
 [data-theme="dark"] .theme-btn .dark,
 [data-theme="light"] .theme-btn .light {
   display: none;
+}
+
+/* ========== HERO ========== */
+.hero {
+  padding-inline-start: calc(var(--top-bar-height) + 24px);
+}
+.hero .container {
+  display: grid;
+  align-items: center;
+  gap: 24px;
+}
+.hero-banner {
+  width: 240px;
+  border-radius: var(--shape-corner-circle);
+}
+.hero-content {
+  max-width: 500px;
+}
+.hero .section-subtitle {
+  color: var(--on-surface-variant);
+}
+.hero .section-text {
+  margin-block: 5px 16px;
+}
+.hero .btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
