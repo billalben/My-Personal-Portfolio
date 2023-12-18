@@ -309,6 +309,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.tab-content:not(.active) {
+  display: none;
+}
 
 /* ========== COMPONENT ========== */
 /* +++ BUTTON +++ */
@@ -336,11 +339,11 @@ body {
   place-content: center;
   background-color: var(--surface);
   color: var(--on-surface-variant);
-  --state-layer-bg: var(--on-surface-variant)
+  --state-layer-bg: var(--on-surface-variant);
 }
 .tab-btn.active {
   color: var(--primary);
-  --state-layer-bg: var(var(--primary))
+  --state-layer-bg: var(var(--primary));
 }
 .tab-text {
   position: relative;
@@ -382,6 +385,26 @@ body {
 }
 
 /* +++ CARD +++ */
+.card {
+  background-color: var(--surface-container-low);
+  border-radius: var(--shape-corner-medium);
+  padding: 16px;
+  --state-layer-bg: var(--on-surface);
+}
+.card-banner {
+  border-radius: var(--shape-corner-medium);
+}
+.card-content {
+  display: grid;
+  gap: 4px;
+}
+.card-subtitle {
+  color: var(--on-surface-variant);
+}
+.card-title {
+  color: var(--on-surface);
+}
+
 /* +++ INPUT FIELD +++ */
 
 /* ========== TOP BAR ========== */
@@ -471,4 +494,11 @@ body {
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+/* ========== Project ========== */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
 }
