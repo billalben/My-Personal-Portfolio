@@ -482,7 +482,7 @@ body {
 
 /* ========== HERO ========== */
 .hero {
-  padding-inline-start: calc(var(--top-bar-height) + 24px);
+  padding-inline-start: calc(var(--top-bar-height) - 24px);
 }
 .hero .container {
   display: grid;
@@ -490,7 +490,7 @@ body {
   gap: 24px;
 }
 .hero-banner {
-  margin-top: 50px;
+  margin-top: 45px;
   width: 240px;
   border-radius: var(--shape-corner-circle);
 }
@@ -634,4 +634,10 @@ body {
   padding: 16px;
   margin-block-end: 16px;
   border-radius: var(--shape-corner-medium);
+}
+/* ========== Footer ========== */
+.footer {
+  text-align: center;
+  padding: 16px;
+  border-block-start: 1px solid var(--outline-variant);
 }
