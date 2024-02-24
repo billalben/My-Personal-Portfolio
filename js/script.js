@@ -1,3 +1,9 @@
+/**
+ * FILEPATH: /Users/billal/programming/myGithub/My-Personal-Portfolio/js/script.js
+ *
+ * @description This script handles the functionality for light and dark mode, as well as tab navigation.
+ */
+
 // Light and Dark Mode
 
 const $themeBtn = document.querySelector("[data-theme-btn]");
@@ -10,6 +16,9 @@ if (sessionStorage.getItem("theme")) {
   $HTML.dataset.theme = isDark ? "dark" : "light";
 }
 
+/**
+ * @description Changes the theme between light and dark mode.
+ */
 const changeTheme = () => {
   if ($HTML.dataset.theme === "dark") {
     $HTML.dataset.theme = "light";
@@ -43,3 +52,6 @@ $tabBtn.forEach((item) => {
     lastActiveTabBtn = this;
   });
 });
+
+// dynamic year copyright.
+document.querySelector(".current-yr-cp").textContent = new Date().getFullYear();

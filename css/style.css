@@ -642,6 +642,9 @@ body {
   padding: 16px;
   border-block-start: 1px solid var(--outline-variant);
 }
+.current-yr-cp {
+  display: inline-block;
+}
 
 /* ========== Media Queries ========== */
 
