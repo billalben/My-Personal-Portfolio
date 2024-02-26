@@ -1,6 +1,4 @@
 /**
- * FILEPATH: /Users/billal/programming/myGithub/My-Personal-Portfolio/js/script.js
- *
  * @description This script handles the functionality for light and dark mode, as well as tab navigation.
  */
 

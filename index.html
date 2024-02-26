@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <!-- Custom Css Link -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/dist/css/style.min.css" />
     <title>Billal Benz - Portfolio</title>
   </head>
   <body>
@@ -27,21 +27,25 @@
     <header class="topbar">
       <a href="#" class="logo">
         <img
-          src="./imgs/logo/logo_dark.png"
+          src="/dist/imgs/logo/logo_dark.png"
           alt="DevFolio"
           width="145"
           height="32"
           class="dark"
         />
         <img
-          src="./imgs/logo/logo_light.png"
+          src="/dist/imgs/logo/logo_light.png"
           alt="DevFolio"
           width="145"
           height="32"
           class="light"
         />
       </a>
-      <button class="icon-btn theme-btn" data-theme-btn>
+      <button
+        class="icon-btn theme-btn"
+        data-theme-btn
+        aria-label="Toggle theme"
+      >
         <span class="material-symbols-outlined dark" aria-hidden="true">
           dark_mode
         </span>
@@ -62,7 +66,7 @@
               style="--width: 240; --height: 240"
             >
               <img
-                src="./imgs/me.jpeg"
+                src="dist/imgs/me.jpeg"
                 width="240"
                 height="240"
                 alt="Billal Benzazoua"
@@ -79,14 +83,18 @@
                 user-friendly websites.
               </p>
               <div class="btn-wrapper">
-                <a href="mailto:billalben252@gmail.com" class="chip">
+                <a
+                  href="mailto:billalben252@gmail.com"
+                  class="chip"
+                  aria-label="Email me"
+                >
                   <span class="material-symbols-outlined" aria-hidden="true">
                     mail
                   </span>
                   <span class="label-large">billalben252@gmail.com</span>
                   <div class="state-layer"></div>
                 </a>
-                <a href="tel:0540715348" class="chip">
+                <a href="tel:0540715348" class="chip" aria-label="Call me">
                   <span class="material-symbols-outlined" aria-hidden="true">
                     call
                   </span>
@@ -97,6 +105,7 @@
                   href="https://github.com/billalben"
                   target="_blank"
                   class="chip"
+                  aria-label="Visit my GitHub profile"
                 >
                   <span class="material-symbols-outlined" aria-hidden="true">
                     memory
@@ -162,7 +171,7 @@
                       style="--width: 334; --height: 180"
                     >
                       <img
-                        src="./imgs/projects/gitfinder-project.png"
+                        src="dist/imgs/projects/gitfinder-project.png"
                         alt="gitfinder Website"
                         class="img-cover"
                         width="334"
@@ -177,6 +186,7 @@
                       href="https://billalben.github.io/github-app/"
                       target="_blank"
                       class="state-layer"
+                      aria-label="Visit the website"
                     ></a>
                   </div>
                   <div class="card">
@@ -185,7 +195,7 @@
                       style="--width: 334; --height: 180"
                     >
                       <img
-                        src="./imgs/projects/noteKeeper-project.png"
+                        src="dist/imgs/projects/noteKeeper-project.png"
                         alt="notekeeper Website"
                         class="img-cover"
                         width="334"
@@ -200,6 +210,7 @@
                       href="https://billalben.github.io/notekeeper/"
                       target="_blank"
                       class="state-layer"
+                      aria-label="Visit the website"
                     ></a>
                   </div>
                   <div class="card">
@@ -208,7 +219,7 @@
                       style="--width: 334; --height: 180"
                     >
                       <img
-                        src="./imgs/projects/car-project.png"
+                        src="dist/imgs/projects/car-project.png"
                         alt="car Website"
                         class="img-cover"
                         width="334"
@@ -223,6 +234,7 @@
                       href="https://billalben.github.io/car/"
                       target="_blank"
                       class="state-layer"
+                      aria-label="Visit the website"
                     ></a>
                   </div>
                 </div>
@@ -293,7 +305,7 @@
                 <ul class="resume-bottom-list">
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/html5.svg"
+                      src="dist/imgs/skills/html5.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -304,7 +316,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/css3.svg"
+                      src="dist/imgs/skills/css3.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -315,7 +327,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/javascript.svg"
+                      src="dist/imgs/skills/javascript.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -326,7 +338,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/react.js.svg"
+                      src="dist/imgs/skills/react.js.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -337,7 +349,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/typescriptlang-icon.svg"
+                      src="dist/imgs/skills/typescriptlang-icon.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -348,7 +360,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/git-scm-icon.svg"
+                      src="dist/imgs/skills/git-scm-icon.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -359,7 +371,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/github.svg"
+                      src="dist/imgs/skills/github.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -370,7 +382,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/gulp-logo-svgrepo-com.svg"
+                      src="dist/imgs/skills/gulp-logo-svgrepo-com.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -381,7 +393,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/jestjsio-icon.svg"
+                      src="dist/imgs/skills/jestjsio-icon.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -392,7 +404,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/getbootstrap-icon.svg"
+                      src="dist/imgs/skills/getbootstrap-icon.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -403,7 +415,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/tailwindcss-icon.svg"
+                      src="dist/imgs/skills/tailwindcss-icon.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -414,7 +426,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/sass-lang-icon.svg"
+                      src="dist/imgs/skills/sass-lang-icon.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -425,7 +437,7 @@
                   </li>
                   <li class="resume-bottom-item">
                     <img
-                      src="./imgs/skills/VS_code.svg"
+                      src="dist/imgs/skills/VS_code.svg"
                       width="28"
                       height="28"
                       loading="lazy"
@@ -506,7 +518,7 @@
                       class="social-item"
                     >
                       <img
-                        src="./imgs/social/linkedin-icon.svg"
+                        src="dist/imgs/social/linkedin-icon.svg"
                         alt="Linkedin"
                       />
                     </a>
@@ -516,7 +528,7 @@
                       class="social-item"
                     >
                       <img
-                        src="./imgs/social/telegram-icon.svg"
+                        src="dist/imgs/social/telegram-icon.svg"
                         alt="Telegram"
                       />
                     </a>
@@ -576,10 +588,11 @@
     <!-- ========= Footer ========= -->
     <footer class="footer">
       <p class="body-medium">
-        &copy; Copyright <span class="current-yr-cp">2024</span>. All right reserved by Billal Benz
+        &copy; Copyright <span class="current-yr-cp">2024</span>. All right
+        reserved by Billal Benz
       </p>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script src="dist/js/script.min.js"></script>
   </body>
 </html>
