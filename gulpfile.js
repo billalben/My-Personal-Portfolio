@@ -33,3 +33,5 @@ gulp.task("compress-images", function () {
 
 // Default task
 gulp.task("default", gulp.parallel("minify-css", "minify-js"));
+
+// example: gulp default or npx gulp default
