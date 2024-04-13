@@ -1,3 +1,5 @@
+"use strict";
+
 /**
  * @description This script handles the functionality for light and dark mode, as well as tab navigation.
  */
@@ -6,35 +8,24 @@
 
 const $themeBtn = document.querySelector("[data-theme-btn]");
 const $HTML = document.documentElement;
-let isDark = window.matchMedia("(prefers-color-scheme:dark)").matches;
 
-if (sessionStorage.getItem("theme")) {
-  $HTML.dataset.theme = sessionStorage.getItem("theme");
-} else {
-  $HTML.dataset.theme = isDark ? "dark" : "light";
-}
-
-/**
- * @description Changes the theme between light and dark mode.
- */
-const changeTheme = () => {
-  if ($HTML.dataset.theme === "dark") {
-    $HTML.dataset.theme = "light";
-    sessionStorage.setItem("theme", "light");
-  } else {
-    $HTML.dataset.theme = "dark";
-    sessionStorage.setItem("theme", "dark");
-  }
+const setInitialTheme = () => {
+  $HTML.dataset.theme = localStorage.getItem("theme") || "light";
 };
 
-$themeBtn.addEventListener("click", changeTheme);
+const toggleTheme = () => {
+  $HTML.dataset.theme = $HTML.dataset.theme === "dark" ? "light" : "dark";
+  localStorage.setItem("theme", $HTML.dataset.theme);
+};
+
+$themeBtn.addEventListener("click", toggleTheme);
 
 // Tab
-$tabBtn = document.querySelectorAll("[data-tab-btn]");
+const $tabsBtn = document.querySelectorAll("[data-tab-btn]");
 let [lastActiveTab] = document.querySelectorAll("[data-tab-content]");
-let [lastActiveTabBtn] = $tabBtn;
+let [lastActiveTabBtn] = $tabsBtn;
 
-$tabBtn.forEach((item) => {
+$tabsBtn.forEach((item) => {
   item.addEventListener("click", function () {
     lastActiveTab.classList.remove("active");
     lastActiveTabBtn.classList.remove("active");
@@ -50,6 +41,9 @@ $tabBtn.forEach((item) => {
     lastActiveTabBtn = this;
   });
 });
+
+// Set initial theme on page load
+setInitialTheme();
 
 // dynamic year copyright.
 document.querySelector(".current-yr-cp").textContent = new Date().getFullYear();
