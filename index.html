@@ -83,9 +83,9 @@
               />
             </figure>
             <div class="hero-content">
-              <span class="label-large section-subtitle"
-                >Front-End Developer</span
-              >
+              <span class="label-large section-subtitle">
+                Front-End Developer
+              </span>
               <h1 class="display-small">Billal Benzazoua</h1>
               <p class="body-large section-text">
                 Front-End Developer with a passion for creating responsive and
@@ -173,8 +173,22 @@
               data-tab-content="project"
             >
               <div class="container">
+                <div class="filter-btns">
+                  <button class="btn-filter active" data-tab-btn-filter="all">
+                    All
+                    <div class="state-layer"></div>
+                  </button>
+                  <button class="btn-filter" data-tab-btn-filter="js">
+                    Pure Js
+                    <div class="state-layer"></div>
+                  </button>
+                  <button class="btn-filter" data-tab-btn-filter="react">
+                    React
+                    <div class="state-layer"></div>
+                  </button>
+                </div>
                 <div class="project-list">
-                  <div class="card">
+                  <div class="card" data-tab-project="js">
                     <figure
                       class="card-banner img-holder"
                       style="--width: 334; --height: 180"
@@ -198,7 +212,7 @@
                       aria-label="Visit the website"
                     ></a>
                   </div>
-                  <div class="card">
+                  <div class="card" data-tab-project="js">
                     <figure
                       class="card-banner img-holder"
                       style="--width: 334; --height: 180"
@@ -222,7 +236,7 @@
                       aria-label="Visit the website"
                     ></a>
                   </div>
-                  <div class="card">
+                  <div class="card" data-tab-project="react">
                     <figure
                       class="card-banner img-holder"
                       style="--width: 334; --height: 180"
@@ -246,7 +260,7 @@
                       aria-label="Visit the website"
                     ></a>
                   </div>
-                  <div class="card">
+                  <div class="card" data-tab-project="react">
                     <figure
                       class="card-banner img-holder"
                       style="--width: 334; --height: 180"
@@ -583,14 +597,20 @@
                       target="_blank"
                       class="social-item"
                     >
-                      <img src="./assets/imgs/social/linkedin.svg" alt="Linkedin" />
+                      <img
+                        src="./assets/imgs/social/linkedin.svg"
+                        alt="Linkedin"
+                      />
                     </a>
                     <a
                       href="https://t.me/BillalBenzazoua"
                       target="_blank"
                       class="social-item"
                     >
-                      <img src="./assets/imgs/social/telegram.svg" alt="Telegram" />
+                      <img
+                        src="./assets/imgs/social/telegram.svg"
+                        alt="Telegram"
+                      />
                     </a>
                   </ul>
                 </div>
