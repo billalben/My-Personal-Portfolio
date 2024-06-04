@@ -1,3 +1,3 @@
 export default defineConfig({
-  base: "/billalbenz",
+  base: "/portfolio",
 });
