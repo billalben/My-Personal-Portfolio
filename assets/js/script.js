@@ -1,24 +1,7 @@
 "use strict";
 
-/**
- * @description This script handles the functionality for light and dark mode, as well as tab navigation.
- */
-
-// Light and Dark Mode
-
-const $themeBtn = document.querySelector("[data-theme-btn]");
-const $HTML = document.documentElement;
-
-const setInitialTheme = () => {
-  $HTML.dataset.theme = localStorage.getItem("theme") || "light";
-};
-
-const toggleTheme = () => {
-  $HTML.dataset.theme = $HTML.dataset.theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", $HTML.dataset.theme);
-};
-
-$themeBtn.addEventListener("click", toggleTheme);
+import projectsData from "./data/projectsData.js";
+import createCard from "./components/cardProject.js";
 
 // Tab sections
 const $tabsBtn = document.querySelectorAll("[data-tab-btn]");
@@ -42,16 +25,19 @@ $tabsBtn.forEach((item) => {
   });
 });
 
-// Set initial theme on page load
-setInitialTheme();
+// Show Projects
+const $projectContainer = document.querySelector("[data-project-list]");
 
-// dynamic year copyright.
-document.querySelector(".current-yr-cp").textContent = new Date().getFullYear();
+projectsData.forEach((project) => {
+  $projectContainer.appendChild(createCard(project));
+});
 
 // Tab filter projects
 const $tabsBtnFilters = document.querySelectorAll("[data-tab-btn-filter]");
 const $tabProjects = document.querySelectorAll("[data-tab-project]");
-let lastActiveTabBtnFilter = document.querySelector("[data-tab-btn-filter].active");
+let lastActiveTabBtnFilter = document.querySelector(
+  "[data-tab-btn-filter].active"
+);
 
 // Ensure there's an initially active tab button
 if (!lastActiveTabBtnFilter && $tabsBtnFilters.length > 0) {
@@ -78,4 +64,9 @@ function handleTabClick(event) {
 }
 
 // Add event listeners to all tab buttons
-$tabsBtnFilters.forEach(tabBtn => tabBtn.addEventListener("click", handleTabClick));
+$tabsBtnFilters.forEach((tabBtn) =>
+  tabBtn.addEventListener("click", handleTabClick)
+);
+
+// dynamic year copyright.
+document.querySelector(".current-yr-cp").textContent = new Date().getFullYear();
