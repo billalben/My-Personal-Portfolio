@@ -409,7 +409,7 @@ body {
 /* +++ Filter Btns +++ */
 .filter-btns {
   display: flex;
-  /* justify-content: center; */
+  flex-wrap: wrap;
   padding-inline-start: 16px;
   gap: 8px;
   margin-block: 0px 16px;
