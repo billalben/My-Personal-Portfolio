@@ -20,6 +20,10 @@ import simpleCoolProjectsImg from "../../imgs/projects/simple-cool-projects.png"
 import takingNoteImg from "../../imgs/projects/taking-note.png";
 import traveliaImg from "../../imgs/projects/travelia.png";
 import gymExerciseImg from "../../imgs/projects/gym-exercise.png";
+import nikeImg from "../../imgs/projects/nike.png";
+import kasperImg from "../../imgs/projects/kasper.png";
+import sneackersImg from "../../imgs/projects/sneackers.png";
+import brainwaveImg from "../../imgs/projects/brainwave.png";
 
 const projects = [
   {
@@ -218,6 +222,42 @@ const projects = [
     subtitle: "Website",
     title: "Gym Exercise",
     href: "https://main--react-gym-exercises.netlify.app/",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    projectType: "react",
+    img: nikeImg,
+    alt: "Nike Project",
+    subtitle: "Website",
+    title: "Nike",
+    href: "https://billalben.github.io/nike/",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    projectType: "html",
+    img: kasperImg,
+    alt: "Kasper Project",
+    subtitle: "Website",
+    title: "Kasper",
+    href: "https://billalben.github.io/html-css-template-two/",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    projectType: "html",
+    img: sneackersImg,
+    alt: "Sneacker Project",
+    subtitle: "Website",
+    title: "Sneacker",
+    href: "https://billalben.github.io/sneakers-ecommerce/",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    projectType: "react",
+    img: brainwaveImg,
+    alt: "Brainwave Project",
+    subtitle: "Website",
+    title: "Brainwave",
+    href: "https://billalben.github.io/brainwave/",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
