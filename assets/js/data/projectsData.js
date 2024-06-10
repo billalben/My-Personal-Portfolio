@@ -42,7 +42,7 @@ const projects = [
     subtitle: "Website",
     title: "Note Keeper",
     href: "https://billalben.github.io/notekeeper/",
-    technologies: ["HTML", "CSS", "JavaScript", "GitHub API"],
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     projectType: "js",
@@ -51,7 +51,7 @@ const projects = [
     subtitle: "Website",
     title: "Weather.io",
     href: "https://billalben.github.io/weather-app/",
-    technologies: ["HTML", "CSS", "JavaScript", "GitHub API"],
+    technologies: ["HTML", "CSS", "JavaScript", "API"],
   },
   {
     projectType: "html",
@@ -68,7 +68,7 @@ const projects = [
     alt: "Adex Project",
     subtitle: "Website",
     title: "Adex",
-    href: "https://billalben.github.io/adex/",
+    href: "https://billalben.github.io/adex-company/",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
@@ -87,7 +87,7 @@ const projects = [
     subtitle: "Website",
     title: "Bondi",
     href: "https://billalben.github.io/bondi/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "Bootstrap"],
   },
   {
     projectType: "html",
@@ -105,7 +105,7 @@ const projects = [
     subtitle: "Website",
     title: "Dashboard",
     href: "https://billalben.github.io/html-css-template-four/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS"],
   },
   {
     projectType: "html",
@@ -123,7 +123,7 @@ const projects = [
     subtitle: "Website",
     title: "Dark Light",
     href: "https://billalben.github.io/fem-darklight-toggle/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript", "Scss"],
   },
   {
     projectType: "html",
@@ -153,7 +153,7 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    projectType: "html",
+    projectType: "js",
     img: musicPlayerImg,
     alt: "Music Player Project",
     subtitle: "Website",
@@ -177,7 +177,7 @@ const projects = [
     subtitle: "Website",
     title: "Patrix",
     href: "https://billalben.github.io/patrix/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "Bootstrap", "Scss"],
   },
   {
     projectType: "react",
@@ -186,7 +186,7 @@ const projects = [
     subtitle: "Website",
     title: "Portfolio React",
     href: "https://billalben.github.io/portfolio-react/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["React", "React-Router"],
   },
   {
     projectType: "html",
@@ -198,13 +198,13 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    projectType: "html",
+    projectType: "react",
     img: takingNoteImg,
     alt: "Taking Note Project",
     subtitle: "Website",
     title: "Taking Note",
     href: "https://billalben.github.io/react-notes-app/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["React"],
   },
   {
     projectType: "html",
@@ -222,7 +222,7 @@ const projects = [
     subtitle: "Website",
     title: "Gym Exercise",
     href: "https://main--react-gym-exercises.netlify.app/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["React", "React-Router", "API", "Material-UI"],
   },
   {
     projectType: "react",
@@ -231,7 +231,7 @@ const projects = [
     subtitle: "Website",
     title: "Nike",
     href: "https://billalben.github.io/nike/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["React", "Tailwind CSS"],
   },
   {
     projectType: "html",
@@ -258,7 +258,7 @@ const projects = [
     subtitle: "Website",
     title: "Brainwave",
     href: "https://billalben.github.io/brainwave/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["React", "Tailwind CSS", "React-Just-Parallax"],
   },
 ];
 

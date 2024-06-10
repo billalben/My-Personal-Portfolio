@@ -10,6 +10,7 @@
   --surface-light: hsl(293, 100%, 98%);
   --on-surface-light: hsl(264, 8%, 12%);
   --on-surface-variant-light: hsl(264, 7%, 29%);
+  --on-surface-variant-light-2: hsla(264, 7%, 29%, 70%);
   --surface-container-low-light: hsl(278, 44%, 96%);
   --surface-container-light: hsl(276, 38%, 95%);
   --surface-bright-light: hsl(293, 100%, 98%);
@@ -25,6 +26,7 @@
   --surface-dark: hsl(260, 14%, 8%);
   --on-surface-dark: hsl(280, 17%, 90%);
   --on-surface-variant-dark: hsl(270, 11%, 79%);
+  --on-surface-variant-dark-2: hsla(270, 11%, 79%, 60%);
   --surface-container-low-dark: hsl(264, 8%, 12%);
   --surface-container-dark: hsl(257, 10%, 14%);
   --surface-bright-dark: hsl(270, 5%, 23%);
@@ -84,6 +86,7 @@
   --surface: var(--surface-light);
   --on-surface: var(--on-surface-light);
   --on-surface-variant: var(--on-surface-variant-light);
+  --on-surface-variant-2: var(--on-surface-variant-light-2);
   --surface-container-low: var(--surface-container-low-light);
   --surface-container: var(--surface-container-light);
   --surface-bright: var(--surface-bright-light);
@@ -101,6 +104,7 @@
   --surface: var(--surface-dark);
   --on-surface: var(--on-surface-dark);
   --on-surface-variant: var(--on-surface-variant-dark);
+  --on-surface-variant-2: var(--on-surface-variant-dark-2);
   --surface-container-low: var(--surface-container-low-dark);
   --surface-container: var(--surface-container-dark);
   --surface-bright: var(--surface-bright-dark);
@@ -428,6 +432,21 @@ body {
   background-color: var(--primary);
   color: var(--on-primary);
   --state-layer-bg: var(--primary);
+}
+
+/* +++ Techs List +++ */
+.techs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-block-start: 4px;
+}
+.techs-list .tech-item {
+  padding: 4px 8px;
+  border: 1px solid var(--outline);
+  border-radius: var(--shape-corner-small);
+  background-color: var(--surface);
+  color: var(--on-surface-variant-2);
 }
 
 /* +++ CARD +++ */
