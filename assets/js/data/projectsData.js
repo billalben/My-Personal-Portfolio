@@ -24,6 +24,9 @@ import nikeImg from "../../imgs/projects/nike.png";
 import kasperImg from "../../imgs/projects/kasper.png";
 import sneackersImg from "../../imgs/projects/sneackers.png";
 import brainwaveImg from "../../imgs/projects/brainwave.png";
+import cookioImg from "../../imgs/projects/cook-io.png";
+import pixstockImg from "../../imgs/projects/pixstock.png";
+import tvflixImg from "../../imgs/projects/tvflix.png";
 
 const projects = [
   {
@@ -51,6 +54,33 @@ const projects = [
     subtitle: "Website",
     title: "Weather.io",
     href: "https://billalben.github.io/weather-app/",
+    technologies: ["HTML", "CSS", "JavaScript", "API"],
+  },
+  {
+    projectType: "js",
+    img: cookioImg,
+    alt: "Cook-io Project",
+    subtitle: "Website",
+    title: "Cook-io",
+    href: "https://cook-io-recipe.netlify.app/",
+    technologies: ["HTML", "CSS", "JavaScript", "API"],
+  },
+  {
+    projectType: "js",
+    img: pixstockImg,
+    alt: "Pix stock Project",
+    subtitle: "Website",
+    title: "Pixstock",
+    href: "https://stock-media-platform.netlify.app/",
+    technologies: ["HTML", "CSS", "JavaScript", "API"],
+  },
+  {
+    projectType: "js",
+    img: tvflixImg,
+    alt: "Tv flix Project",
+    subtitle: "Website",
+    title: "Tvflix",
+    href: "https://tvflex-movie.netlify.app/",
     technologies: ["HTML", "CSS", "JavaScript", "API"],
   },
   {
