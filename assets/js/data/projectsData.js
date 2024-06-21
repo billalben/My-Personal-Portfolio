@@ -1,37 +1,7 @@
-import gitFinderImg from "../../imgs/projects/gitfinder-project.png";
-import noteKeeperImg from "../../imgs/projects/noteKeeper-project.png";
-import weatherioImg from "../../imgs/projects/weatherio-app.png";
-import carImg from "../../imgs/projects/car-project.png";
-import adexImg from "../../imgs/projects/adex.png";
-import billalWorldImg from "../../imgs/projects/billal-world-t3.png";
-import bondiImg from "../../imgs/projects/bondi.png";
-import covid19Img from "../../imgs/projects/covid-19.png";
-import dashboardImg from "../../imgs/projects/dashboard-t4.png";
-import desinicImg from "../../imgs/projects/desinic.png";
-import darkLightImg from "../../imgs/projects/fem-darklight-toggle.jpg";
-import grilliImg from "../../imgs/projects/grilli.png";
-import leonImg from "../../imgs/projects/leon-t1.png";
-import metaLinkImg from "../../imgs/projects/meta-link.png";
-import musicPlayerImg from "../../imgs/projects/music-player.png";
-import nftcImg from "../../imgs/projects/nftc.png";
-import patrixImg from "../../imgs/projects/patrix.png";
-import portfolioReactImg from "../../imgs/projects/portfolio-react.png";
-import simpleCoolProjectsImg from "../../imgs/projects/simple-cool-projects.png";
-import takingNoteImg from "../../imgs/projects/taking-note.png";
-import traveliaImg from "../../imgs/projects/travelia.png";
-import gymExerciseImg from "../../imgs/projects/gym-exercise.png";
-import nikeImg from "../../imgs/projects/nike.png";
-import kasperImg from "../../imgs/projects/kasper.png";
-import sneackersImg from "../../imgs/projects/sneackers.png";
-import brainwaveImg from "../../imgs/projects/brainwave.png";
-import cookioImg from "../../imgs/projects/cook-io.png";
-import pixstockImg from "../../imgs/projects/pixstock.png";
-import tvflixImg from "../../imgs/projects/tvflix.png";
-
 const projects = [
   {
     projectType: "js",
-    img: gitFinderImg,
+    img: "/images/projects/gitfinder-project.png",
     alt: "GitFinder Project",
     subtitle: "Website",
     title: "GitFinder",
@@ -40,7 +10,7 @@ const projects = [
   },
   {
     projectType: "js",
-    img: noteKeeperImg,
+    img: "/images/projects/noteKeeper-project.png",
     alt: "Note Keeper Project",
     subtitle: "Website",
     title: "Note Keeper",
@@ -49,7 +19,7 @@ const projects = [
   },
   {
     projectType: "js",
-    img: weatherioImg,
+    img: "/images/projects/weatherio-app.png",
     alt: "Weather Project",
     subtitle: "Website",
     title: "Weather.io",
@@ -58,7 +28,7 @@ const projects = [
   },
   {
     projectType: "js",
-    img: cookioImg,
+    img: "/images/projects/cook-io.png",
     alt: "Cook-io Project",
     subtitle: "Website",
     title: "Cook-io",
@@ -67,7 +37,7 @@ const projects = [
   },
   {
     projectType: "js",
-    img: pixstockImg,
+    img: "/images/projects/pixstock.png",
     alt: "Pix stock Project",
     subtitle: "Website",
     title: "Pixstock",
@@ -76,7 +46,7 @@ const projects = [
   },
   {
     projectType: "js",
-    img: tvflixImg,
+    img: "/images/projects/tvflix.png",
     alt: "Tv flix Project",
     subtitle: "Website",
     title: "Tvflix",
@@ -85,7 +55,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: carImg,
+    img: "/images/projects/car-project.png",
     alt: "Car Project",
     subtitle: "Website",
     title: "Car",
@@ -94,7 +64,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: adexImg,
+    img: "/images/projects/adex.png",
     alt: "Adex Project",
     subtitle: "Website",
     title: "Adex",
@@ -103,7 +73,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: billalWorldImg,
+    img: "/images/projects/billal-world-t3.png",
     alt: "Billal Project",
     subtitle: "Website",
     title: "Billal World",
@@ -112,7 +82,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: bondiImg,
+    img: "/images/projects/bondi.png",
     alt: "Bondi Project",
     subtitle: "Website",
     title: "Bondi",
@@ -121,7 +91,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: covid19Img,
+    img: "/images/projects/covid-19.png",
     alt: "Covid 19 Project",
     subtitle: "Website",
     title: "Covid 19",
@@ -130,7 +100,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: dashboardImg,
+    img: "/images/projects/dashboard-t4.png",
     alt: "Dashboard Project",
     subtitle: "Website",
     title: "Dashboard",
@@ -139,7 +109,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: desinicImg,
+    img: "/images/projects/desinic.png",
     alt: "Desinic Project",
     subtitle: "Website",
     title: "Desinic",
@@ -148,7 +118,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: darkLightImg,
+    img: "/images/projects/fem-darklight-toggle.jpg",
     alt: "Dark Light Project",
     subtitle: "Website",
     title: "Dark Light",
@@ -157,7 +127,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: grilliImg,
+    img: "/images/projects/grilli.png",
     alt: "Grilli Project",
     subtitle: "Website",
     title: "Grilli",
@@ -166,7 +136,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: leonImg,
+    img: "/images/projects/leon-t1.png",
     alt: "Leon Project",
     subtitle: "Website",
     title: "Leon",
@@ -175,7 +145,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: metaLinkImg,
+    img: "/images/projects/meta-link.png",
     alt: "Meta Link Project",
     subtitle: "Website",
     title: "Meta Link",
@@ -184,7 +154,7 @@ const projects = [
   },
   {
     projectType: "js",
-    img: musicPlayerImg,
+    img: "/images/projects/music-player.png",
     alt: "Music Player Project",
     subtitle: "Website",
     title: "Music Player",
@@ -193,7 +163,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: nftcImg,
+    img: "/images/projects/nftc.png",
     alt: "NFTc Project",
     subtitle: "Website",
     title: "NFTc",
@@ -202,7 +172,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: patrixImg,
+    img: "/images/projects/patrix.png",
     alt: "Patrix Project",
     subtitle: "Website",
     title: "Patrix",
@@ -211,7 +181,7 @@ const projects = [
   },
   {
     projectType: "react",
-    img: portfolioReactImg,
+    img: "/images/projects/portfolio-react.png",
     alt: "Portfolio React Project",
     subtitle: "Website",
     title: "Portfolio React",
@@ -220,7 +190,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: simpleCoolProjectsImg,
+    img: "/images/projects/simple-cool-projects.png",
     alt: "Simple Cool Project",
     subtitle: "Website",
     title: "Simple Cool Projects",
@@ -229,7 +199,7 @@ const projects = [
   },
   {
     projectType: "react",
-    img: takingNoteImg,
+    img: "/images/projects/taking-note.png",
     alt: "Taking Note Project",
     subtitle: "Website",
     title: "Taking Note",
@@ -238,7 +208,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: traveliaImg,
+    img: "/images/projects/travelia.png",
     alt: "Travelia Project",
     subtitle: "Website",
     title: "Travelia Note",
@@ -247,7 +217,7 @@ const projects = [
   },
   {
     projectType: "react",
-    img: gymExerciseImg,
+    img: "/images/projects/gym-exercise.png",
     alt: "Gym Exercise Project",
     subtitle: "Website",
     title: "Gym Exercise",
@@ -256,7 +226,7 @@ const projects = [
   },
   {
     projectType: "react",
-    img: nikeImg,
+    img: "/images/projects/nike.png",
     alt: "Nike Project",
     subtitle: "Website",
     title: "Nike",
@@ -265,7 +235,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: kasperImg,
+    img: "/images/projects/kasper.png",
     alt: "Kasper Project",
     subtitle: "Website",
     title: "Kasper",
@@ -274,7 +244,7 @@ const projects = [
   },
   {
     projectType: "html",
-    img: sneackersImg,
+    img: "/images/projects/sneackers.png",
     alt: "Sneacker Project",
     subtitle: "Website",
     title: "Sneacker",
@@ -283,7 +253,7 @@ const projects = [
   },
   {
     projectType: "react",
-    img: brainwaveImg,
+    img: "/images/projects/brainwave.png",
     alt: "Brainwave Project",
     subtitle: "Website",
     title: "Brainwave",

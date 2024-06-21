@@ -589,9 +589,13 @@ body {
   color: var(--on-surface);
 }
 .about-card .card-text {
-  margin-block: 12px;
-  padding-block: 12px;
+  margin-block: 8px;
+  padding-block: var(--section-padding);
   border-block: 1px solid var(--outline-variant);
+  text-align: justify;
+  hyphens: auto;
+  /* word-spacing: 0.1em;
+  letter-spacing: 0.05em; */
 }
 .about-list {
   display: grid;
