@@ -181,6 +181,21 @@ const projects = [
   },
   {
     projectType: "react",
+    img: "/images/projects/products-builder.png",
+    alt: "Products Builder Project",
+    subtitle: "Website",
+    title: "Products Builder",
+    href: "https://products-builder.netlify.app/",
+    technologies: [
+      "React",
+      "Typescript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Form Hook",
+    ],
+  },
+  {
+    projectType: "react",
     img: "/images/projects/portfolio-react.png",
     alt: "Portfolio React Project",
     subtitle: "Website",
@@ -259,6 +274,15 @@ const projects = [
     title: "Brainwave",
     href: "https://billalben.github.io/brainwave/",
     technologies: ["React", "Tailwind CSS", "React-Just-Parallax"],
+  },
+  {
+    projectType: "react",
+    img: "/images/projects/alert-react-ts.png",
+    alt: "alert Project",
+    subtitle: "Component",
+    title: "Alert",
+    href: "https://billalben.github.io/alert-react-ts/",
+    technologies: ["React", "TypeScript", "Sass"],
   },
 ];
 
