@@ -10,4 +10,4 @@ I'm a web developer passionate about creating user-friendly and visually appeali
 
 ## Contact
 
-Feel free to reach out to me via email at **billalben252@gmail.com** or connect with me on [LinkedIn/Twitter/other social media].
+Feel free to reach out to me via email at **contact@billalbenz.me** or connect with me on [LinkedIn/Twitter/other social media].
