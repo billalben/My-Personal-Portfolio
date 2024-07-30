@@ -1,5 +1,21 @@
 const projects = [
   {
+    projectType: "react",
+    img: "/images/projects/shop-ecommerce.png",
+    alt: "E-Commerce Project",
+    subtitle: "Website",
+    title: "Shop E-Commerce",
+    href: "https://shop-bz.netlify.app/",
+    technologies: [
+      "React",
+      "Typescript",
+      "Redux-Toolkit",
+      "Axios",
+      "Bootstrap",
+      "React Form Hook",
+    ],
+  },
+  {
     projectType: "js",
     img: "/images/projects/gitfinder-project.png",
     alt: "GitFinder Project",
@@ -52,6 +68,31 @@ const projects = [
     title: "Tvflix",
     href: "https://tvflex-movie.netlify.app/",
     technologies: ["HTML", "CSS", "JavaScript", "API"],
+  },
+  {
+    projectType: "next",
+    img: "/images/projects/blog-billal.png",
+    alt: "Blog Billal Project",
+    subtitle: "Website",
+    title: "Blog Billal",
+    href: "https://next-blog-billal.vercel.app/",
+    technologies: ["Next.js", "TypeScript", "Sanity", "Shadcn UI"],
+  },
+  {
+    projectType: "next",
+    img: "/images/projects/next-todo.png",
+    alt: "Todo Project",
+    subtitle: "Website",
+    title: "Todo",
+    href: "https://nextjs-todo-app-swart.vercel.app/",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Clerk",
+      "Prisma",
+      "MongoDB",
+      "Shadcn UI",
+    ],
   },
   {
     projectType: "html",

@@ -447,6 +447,9 @@ body {
   border-radius: var(--shape-corner-small);
   background-color: var(--surface);
   color: var(--on-surface-variant-2);
+
+  display: grid;
+  place-items: center;
 }
 
 /* +++ CARD +++ */
